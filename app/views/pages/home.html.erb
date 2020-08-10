@@ -1,9 +1,14 @@
-<h1 class="font-weight-bold">My beautiful devise app</h1>
-
-<p>
-  <% if user_signed_in? %>
-    <%= current_user.email %>
-  <% else %>
-    Guest
-  <% end %>
-</p>
+<div class="container">
+  <div class="row my-3">
+    <div class="col">
+      <h1 class="font-weight-bold">My beautiful devise app</h1>
+      <p>
+        <% if user_signed_in? %>
+          <%= current_user.email %>
+        <% else %>
+          Guest
+        <% end %>
+      </p>
+    </div>
+  </div>
+</div>
