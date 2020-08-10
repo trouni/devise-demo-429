@@ -1,7 +1,9 @@
-<h1>
+<h1 class="font-weight-bold">My beautiful devise app</h1>
+
+<p>
   <% if user_signed_in? %>
     <%= current_user.email %>
   <% else %>
     Guest
   <% end %>
-</h1>
+</p>
