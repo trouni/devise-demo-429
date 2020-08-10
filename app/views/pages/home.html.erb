@@ -1,7 +1,13 @@
-<h1>
-  <% if user_signed_in? %>
-    <%= current_user.email %>
-  <% else %>
-    Guest
-  <% end %>
-</h1>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>
+        <% if user_signed_in? %>
+          <%= current_user.email %>
+        <% else %>
+          Guest
+        <% end %>
+      </h1>
+    </div>
+  </div>
+</div>
